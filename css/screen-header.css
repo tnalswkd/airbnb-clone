@@ -1,0 +1,102 @@
+.screen-header__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px var(--horizontal-space);
+  width: 100%;
+  border-bottom: var(--border);
+}
+
+/* logo */
+
+.screen-header__title {
+  width: 35%;
+  margin-bottom: 10px;
+}
+
+.screen-header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__logo h4 {
+  color: #ff385c;
+  font-size: 20px;
+  margin-left: -20px;
+}
+
+.screen-header__logo img {
+  width: 80px;
+  height: 50px;
+  margin-left: -50px;
+}
+
+/* search-bar */
+
+.screen-header__search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 1.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-left: -50px;
+  /* box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.screen-header__search-bar input {
+  border: none;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+}
+
+input[type='submit'] {
+  font-family: FontAwesome;
+  width: 30px;
+  height: 30px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 5px 0px;
+  margin-right: 5px;
+  background-color: #ff385c;
+  color: white;
+}
+
+/* user-info etc */
+
+.screen-header__etc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.screen-header__etc .screen-header__etc-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.screen-header__etc .globe {
+  margin: 0px -50px;
+}
+
+.screen-header__etc .user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 40px;
+  border: var(--border);
+  border-radius: 30px;
+}
+
+.screen-header__etc .user-info:last-child i {
+  margin-left: 10px;
+}
