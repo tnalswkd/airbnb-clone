@@ -3,6 +3,7 @@
 @import 'variables.css';
 @import 'nav-bar.css';
 @import 'filter-bar.css';
+@import 'main.css';
 
 body {
   color: #393838;

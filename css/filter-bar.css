@@ -5,14 +5,19 @@
   padding: 0px var(--horizontal-space);
   padding-top: 35px;
   padding-bottom: 10px;
-  border-bottom: var(--border);
 }
+
+/* .filter-bar:hover {
+  border-bottom: var(--border);
+} */
 
 .filter-bar__column {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   color: rgba(0, 0, 0, 0.6);
+  width: 8%;
 }
 
 .filter-bar__column:hover {
@@ -32,7 +37,7 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .filter-bar__filter-right {
@@ -44,7 +49,7 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   margin-right: 15px;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 .filter-bar__filter-filter__btn {
